@@ -43,7 +43,7 @@ const SignUp = () => {
       setSuccessMessage("");
     } else {
       try{
-        const response = await fetch("https://amazon-clone-backend-ittk.onrender.com",
+        const response = await fetch("https://amazon-clone-backend-ittk.onrender.com/user/signup",
           {
             method: "POST",
             headers:{ 'Content-Type' : 'application/json'},
