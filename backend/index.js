@@ -14,7 +14,7 @@ app.use(express.json());
 
 app.use(cors()); // Allows all origins
 // OR restrict to specific origin
-app.use(cors({ origin: 'https://amazon-clone-backend-ittk.onrender.com' }));
+app.use(cors({ origin: 'https://amazon-clone-frontend-c5k8.onrender.com' }));
 
 dbConnection();
 
