@@ -21,7 +21,7 @@ const LogIn = () => {
       setError("Password must be at least 6 characters");  
       return;
     }
-    const response = await fetch("http://localhost:3000/user/login",
+    const response = await fetch("https://amazon-clone-backend-ittk.onrender.com",
           {
             method: "POST",
             headers:{ 'Content-Type' : 'application/json'},
