@@ -12,9 +12,11 @@ const PORT = process.env.PORT || 8000;
 app.use(express.urlencoded({extended: true}))
 app.use(express.json());
 
-app.use(cors()); // Allows all origins
-// OR restrict to specific origin
-app.use(cors({ origin: 'https://amazon-clone-frontend-c5k8.onrender.com' }));
+app.use(cors({
+  origin: 'https://amazon-clone-frontend-c5k8.onrender.com',
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  credentials: true
+}));
 
 dbConnection();
 
