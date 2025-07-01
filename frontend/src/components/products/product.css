@@ -1,0 +1,155 @@
+.product-container{
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.combine-box{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    background-color: rgb(230, 230, 230);  /*rgb(230, 230, 230) */
+    padding: 0 20px;
+    padding-bottom: 20px;
+    box-shadow: 0 -20px 20px rgb(230, 230, 230);
+}
+
+.combine-item{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    position: absolute;
+    top: -100px;
+    z-index: 2;
+    height: auto;
+}
+
+.item1{
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    width: 310px;
+}
+
+.combine-item h2{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: rgb(37, 37, 37);
+}
+
+.combine-item .item-container{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.item-container img{
+    width: 130px;
+    height: 110px;
+}
+
+.item-container p{
+    font-size: 0.7rem;
+    color: rgb(66, 66, 66);
+    font-weight: 500;
+}
+
+.row1, .row2{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.best-product-container{
+    width: 100%;
+    padding: 0 20px;
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 650px){
+    .best-product-container{
+        padding: 5px;
+        gap: 10px;
+    }
+}
+
+.ads{
+    width: 100%;
+}
+
+.ads img{
+    width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+    .combine-item h2{
+        font-size: 20px;
+    }
+
+    .combine-item{
+        top: -80px;
+    }
+
+    .i1{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px){
+
+    .i2{
+        display: none;
+    }
+
+    .combine-item .item{
+        width: none;
+    }
+
+    .combine-item{
+        top: -40px;
+    }
+
+    .combine-box{
+        position: relative;
+        text-align: center;
+        width: 100%;
+        height: 400px;
+        padding: 0 5px;
+        box-shadow: none;
+    }
+
+    .combine-item{
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+        position: relative;
+        top: 0px;
+        z-index: 2;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .best-product-container{
+        padding: 0;
+    }
+
+    .combine-box{
+        position: relative;
+        text-align: center;
+        width: 100%;
+        height: 790px;
+        background-color: rgb(199, 199, 199);
+        padding: 0;
+        box-shadow: none;
+    }
+
+    .combine-item{
+        flex-wrap: wrap;
+    }
+}
+

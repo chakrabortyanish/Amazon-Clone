@@ -1,0 +1,45 @@
+.carousel-container {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  z-index: -1;
+}
+
+@media screen and (max-width: 800px){
+  .carousel-container {
+     display: none;
+  }
+}
+
+.carousel-container .carousel-image {
+  width: 100%;
+  height: 100%;
+  transition: opacity 0.5s ease-in-out;
+}
+
+/* Arrows */
+.carousel-container .arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255,255,255,0.7);
+  border: none;
+  font-size: 2rem;
+  padding: 8px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.carousel-container .left {
+  left: 10px;
+}
+
+.carousel-container .right {
+  right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .carousel-container {
+    height: 200px;
+  }
+}

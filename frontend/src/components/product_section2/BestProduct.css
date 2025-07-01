@@ -1,0 +1,90 @@
+.product-slider-wrapper {
+  position: relative;
+  background: white;
+  padding: 20px;
+}
+
+.product-slider-wrapper h2 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 650px) {
+  .product-slider-wrapper h2{
+    font-size: 1rem;
+  }
+}
+
+.product-slider-wrapper h2 span {
+  color: #007185;
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 0.9rem;
+}
+
+.slider-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.product-slider {
+  display: flex;
+  gap: 15px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 10px 0;
+}
+
+.product-slider::-webkit-scrollbar {
+  display: none;
+}
+
+.product-card {
+  flex: 0 0 auto;
+  width: 200px;
+  height: 200px;
+  background: #f6f6f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ddd;
+}
+
+.product-card img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.arrow-btn {
+  position: absolute;
+  background: rgba(255,255,255,0.9);
+  border: none;
+  font-size: 1.5rem;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.slider-container .left {
+  left: 0;
+}
+
+.slider-container .right {
+  right: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .product-card {
+    width: 100px;
+    height: 100px;
+  }
+
+  .arrow-btn {
+    font-size: 1.2rem;
+    padding: 6px;
+  }
+}
+

@@ -1,0 +1,103 @@
+.signup-container{
+    width: 350px;
+    margin: 0 auto;
+}
+
+.amazon-logo{
+    width: 130px;
+     margin: 0 auto;
+}
+
+.container{
+    width: 100%;
+    padding: 20px 20px;
+    text-align: left;
+    border: 2px solid rgb(120, 120, 120);
+    border-radius: 10px;
+}
+
+.container h2{
+    margin-bottom: 30px;
+    text-align: center;
+    color: blue;
+    text-decoration: underline;
+}
+
+.container input{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    display: block;
+    width: 100%;
+    border: 1px solid rgb(40, 40, 40);
+    border-radius: 7px;
+    outline: 0;
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: 5px 0px 5px 10px;
+}
+
+.container .fullname input{
+   text-transform: capitalize;
+}
+
+.container .fullname{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.first-name, .last-name{
+    width: 45%;
+}
+
+.from-text{
+    color: rgb(62, 62, 62);
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.form-err{
+    color: red;
+    font-size: 0.9rem;
+    font-weight: 400;
+    height: 10px;
+}
+
+#submit{
+    width: 100%;
+    color: white;
+    background-color: rgb(0, 0, 161);
+    padding: 7px 0;
+    font-weight: 600;
+    font-size: 1.1rem;
+    border-radius: 1.5rem;
+    cursor: pointer;
+}
+
+#success{
+    color: green;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+#submit:hover{
+    background-color: rgb(20, 20, 215);
+}
+
+.already-account{
+    font-size: 0.9rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.already-account a{
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+.already-account a:hover{
+    color: rgb(32, 162, 255);
+}
