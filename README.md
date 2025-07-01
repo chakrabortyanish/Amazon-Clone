@@ -21,17 +21,24 @@ Responsive Design<br>
 
 📷 Screenshots<br>
 ![Home Page] <br>
-![image](https://github.com/user-attachments/assets/a4e276c5-fb6e-4577-acc5-2e3e088ec3b7)<br>
-![image](https://github.com/user-attachments/assets/2ecb3123-23bb-410c-94a9-d84fe7bc37a4)<br>
-![image](https://github.com/user-attachments/assets/96d6a6dc-6d04-455f-8d6c-13f359ddd74c)<br>
+![image](https://github.com/user-attachments/assets/9d5f82f4-d740-4882-b8b6-4152959e377e)
+<br>
+![image](https://github.com/user-attachments/assets/1ad6cca5-2e3f-480f-aaec-7c3363f71665)
+<br>
+![image](https://github.com/user-attachments/assets/2710c166-2aac-4e78-b9d1-0287b077e8eb)
+<br>
 ![Add to cart]<br>
-![image](https://github.com/user-attachments/assets/3dca9402-1150-47ea-9522-0b128831f151)<br>
+![image](https://github.com/user-attachments/assets/c2b8dbfd-9fdb-49fa-9341-70887f58de60)
+<br>
 ![Registration page]<br>
-![image](https://github.com/user-attachments/assets/8b63f48b-58aa-4e76-b6c3-83ec0857cce3)<br>
+![image](https://github.com/user-attachments/assets/c08cf3b0-2ea1-4813-b7e9-ce376da40c8a)
+<br>
 ![Login page]<br>
-![image](https://github.com/user-attachments/assets/8084d658-3750-4b0f-90e5-75a8791183d2)<br>
+![image](https://github.com/user-attachments/assets/031bf292-3319-4200-9150-d8b428cba806)
+<br>
 ![Shopping cart page]<br>
-![image](https://github.com/user-attachments/assets/458780bd-e639-4cf6-8752-758751765856)<br>
+![image](https://github.com/user-attachments/assets/93aa708d-6568-4c7b-8435-514275fec712)
+<br>
 
 
 
